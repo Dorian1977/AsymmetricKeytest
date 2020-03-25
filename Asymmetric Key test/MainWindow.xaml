@@ -1,0 +1,36 @@
+﻿<Window x:Class="Asymmetric_Key_test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Asymmetric_Key_test"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="485" Width="800">
+    <Grid Margin="0,0,0,-1">
+        <Button x:Name="encryptBt" Content="Asymmetric Encrypt" HorizontalAlignment="Left" Margin="669,145,0,0" VerticalAlignment="Top" Width="115" Height="30" Click="encryptBt_Click" Background="#FFD4F1F1"/>
+        <TextBox x:Name="txtplainTB" HorizontalAlignment="Left" Height="40" Margin="40,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="612"/>
+        <Label Content="Asymmetric Encryption - RSA" HorizontalAlignment="Left" Height="39" Margin="238,8,0,0" VerticalAlignment="Top" Width="274" FontSize="20"/>
+        <Label Content="Plain Text For Encryption" HorizontalAlignment="Left" Margin="40,47,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="decryptBt" Content="Asymmetric Decrypt" HorizontalAlignment="Left" Margin="669,335,0,0" VerticalAlignment="Top" Width="116" Click="decryptBt_Click" Height="30" Background="#FFDEF3F1"/>
+        <TextBox x:Name="txtencryptedTB" HorizontalAlignment="Left" Height="39" Margin="40,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="612" RenderTransformOrigin="0.501,-0.05" IsReadOnlyCaretVisible="True"/>
+        <Label Content="Encrypted Text" HorizontalAlignment="Left" Margin="40,113,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtdecryptedTB" HorizontalAlignment="Left" Margin="40,334,0,73" TextWrapping="Wrap" Width="612"/>
+        <Label Content="Plain Text After Decryption" HorizontalAlignment="Left" Margin="40,306,0,0" VerticalAlignment="Top"/>
+        <Label Content="ASCII to HEX" HorizontalAlignment="Left" Margin="40,176,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="asciiToHexTB" HorizontalAlignment="Left" Height="41" Margin="40,201,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="612" RenderTransformOrigin="0.501,-0.05"/>
+        <Button x:Name="asciiToHexBt" Content="ASCII To HEX" HorizontalAlignment="Left" Margin="677,203,0,0" VerticalAlignment="Top" Width="81" Height="41" Click="asciiToHexBt_Click"/>
+        <Label Content="HEX to ASCII" HorizontalAlignment="Left" Margin="40,241,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="hexToASCIITB" HorizontalAlignment="Left" Height="40" Margin="40,267,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="612" RenderTransformOrigin="0.501,-0.05"/>
+        <Button x:Name="hexToAsciiBt" Content="HEX to ASCII" HorizontalAlignment="Left" Margin="677,266,0,0" VerticalAlignment="Top" Width="81" Height="40" Click="hexToAsciiBt_Click"/>
+        <Button x:Name="SimpleEncryptBt" Content="Symmetric Encrypt" HorizontalAlignment="Left" Margin="669,73,0,0" VerticalAlignment="Top" Width="115" Height="25" Click="SimpleEncryptBt_Click" Background="#FFE0DEBB"/>
+        <Button x:Name="SimpleDecryptBt" Content="Symmetric Decrypt" HorizontalAlignment="Left" Margin="670,103,0,0" VerticalAlignment="Top" Width="115" Height="25" Click="SimpleDecryptBt_Click" Background="#FFEAE8C3"/>
+        <Button x:Name="Read_Symmetric_key" Content="Read Symmetric Key" HorizontalAlignment="Left" Margin="646,27,0,0" VerticalAlignment="Top" Width="126" Height="36" Click="ReadSymmetricKey_Click" Background="#FFE0C8BB"/>
+        <Label Content="Random Access Code" HorizontalAlignment="Left" Margin="40,387,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="randomNumTb" HorizontalAlignment="Left" Margin="40,413,0,15" TextWrapping="Wrap" Width="124"/>
+        <Button x:Name="generateRandomNum" Content="Generated" HorizontalAlignment="Left" Margin="183,413,0,0" VerticalAlignment="Top" Width="116" Click="generateRandomNum_Click" Height="27" Background="#FFDEF3F1"/>
+        <Button x:Name="binary2ASCII" Content="Binary2ASCII" HorizontalAlignment="Left" Margin="460,413,0,0" VerticalAlignment="Top" Width="116" Click="binary2ASCII_Click" Height="27" Background="#FFDEF3F1"/>
+        <TextBox x:Name="binaryTb" HorizontalAlignment="Left" Margin="316,413,0,15" TextWrapping="Wrap" Width="124"/>
+        <Label Content="Binary output" HorizontalAlignment="Left" Margin="316,386,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="labelConvert" Content="labelConvert" HorizontalAlignment="Left" Margin="591,413,0,0" VerticalAlignment="Top" Width="116" Click="labelConvert_Click" Height="27" Background="#FFDEF3F1"/>
+    </Grid>
+</Window>

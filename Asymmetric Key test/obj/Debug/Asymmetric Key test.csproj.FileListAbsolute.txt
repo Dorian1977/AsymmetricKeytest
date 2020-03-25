@@ -1,0 +1,15 @@
+C:\Users\dyeh\source\repos\Asymmetric Key test\Asymmetric Key test\bin\Debug\Asymmetric Key test.exe.config
+C:\Users\dyeh\source\repos\Asymmetric Key test\Asymmetric Key test\bin\Debug\Asymmetric Key test.exe
+C:\Users\dyeh\source\repos\Asymmetric Key test\Asymmetric Key test\bin\Debug\Asymmetric Key test.pdb
+C:\Users\dyeh\source\repos\Asymmetric Key test\Asymmetric Key test\obj\Debug\Asymmetric Key test.csprojAssemblyReference.cache
+C:\Users\dyeh\source\repos\Asymmetric Key test\Asymmetric Key test\obj\Debug\MainWindow.g.cs
+C:\Users\dyeh\source\repos\Asymmetric Key test\Asymmetric Key test\obj\Debug\App.g.cs
+C:\Users\dyeh\source\repos\Asymmetric Key test\Asymmetric Key test\obj\Debug\Asymmetric Key test_MarkupCompile.cache
+C:\Users\dyeh\source\repos\Asymmetric Key test\Asymmetric Key test\obj\Debug\Asymmetric Key test_MarkupCompile.lref
+C:\Users\dyeh\source\repos\Asymmetric Key test\Asymmetric Key test\obj\Debug\MainWindow.baml
+C:\Users\dyeh\source\repos\Asymmetric Key test\Asymmetric Key test\obj\Debug\Asymmetric Key test.g.resources
+C:\Users\dyeh\source\repos\Asymmetric Key test\Asymmetric Key test\obj\Debug\Asymmetric_Key_test.Properties.Resources.resources
+C:\Users\dyeh\source\repos\Asymmetric Key test\Asymmetric Key test\obj\Debug\Asymmetric Key test.csproj.GenerateResource.cache
+C:\Users\dyeh\source\repos\Asymmetric Key test\Asymmetric Key test\obj\Debug\Asymmetric Key test.exe
+C:\Users\dyeh\source\repos\Asymmetric Key test\Asymmetric Key test\obj\Debug\Asymmetric Key test.pdb
+C:\Users\dyeh\source\repos\Asymmetric Key test\Asymmetric Key test\obj\Debug\Asymmetric Key test.csproj.CoreCompileInputs.cache
